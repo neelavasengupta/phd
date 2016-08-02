@@ -99,9 +99,4 @@ class BSA(EncoderBase):
 
 
 my_data = [[1.43, 2.00, 0.53, 7.21], [5.34, 2.87, 1.11,3.21], [1.43, 2.00, 5.33, 2.21]]
-temp_cont =TC(0.5)
-result = temp_cont.encode(my_data)
-print(result)
-bens_spiker = BSA(3, 0.05, 0.6)
-result = bens_spiker.encode(my_data)
-print(result)
+
